@@ -1,0 +1,16 @@
+{
+  "packageName": "org.nacindonesia.yougrow.event",
+  "className": "Event",
+  "tableName": "event",
+  "fields": [
+    { "name": "id", "columnName": "id", "type": "String", "pk": true },
+    { "name": "eventType", "columnName": "event_type_id", "type": "EventType", "fk": "event_type" },
+    { "name": "name", "columnName": "name", "type": "String" },
+    { "name": "slug", "columnName": "slug", "type": "String" },
+    { "name": "description", "columnName": "description", "type": "String" },
+    { "name": "dateBegin", "columnName": "date_begin", "type": "Date" },
+    { "name": "dateEnd", "columnName": "date_end", "type": "Date" },
+    { "name": "location", "columnName": "location", "type": "String" },
+    { "name": "image", "columnName": "image", "type": "String" }
+  ]
+}
