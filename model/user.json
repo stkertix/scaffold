@@ -1,0 +1,12 @@
+{
+  "packageName": "org.nacindonesia.yougrow.person",
+  "className": "User",
+  "tableName": "user",
+  "fields": [
+    { "name": "id", "columnName": "id", "type": "String" },
+    { "name": "party", "columnName": "party_id", "type": "Party" },
+    { "name": "username", "columnName": "username", "type": "String" },
+    { "name": "password", "columnName": "password", "type": "String" },
+    { "name": "isReset", "columnName": "isReset", "type": "boolean" }
+  ]
+}
